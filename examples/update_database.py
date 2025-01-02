@@ -1,4 +1,4 @@
-        wallets_collection = db["claimers"]
+        wallets_collection = db["holders"]
         update_result = wallets_collection.update_one(
             {"WalletAddress": recipient_wallet},  
             {"$unset": {f"Claimable.{token_name}": ""}}  
