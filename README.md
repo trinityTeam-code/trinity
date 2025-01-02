@@ -21,8 +21,8 @@ After generating an image using an AI pipeline, the image is saved with a name r
 4. **DApp Integration**: Once deployed, the token is immediately available on the dApp.
 
 Code examples:
-- Metadata preparation and deployment: See `example/deploy_metadata.py`.
-- Holder data collection: See `example/read_holders.py`.
+- Metadata preparation and deployment: See `example/deploy.js`.
+- Holder data collection: See `example/read_holders.js`.
 
 ---
 
