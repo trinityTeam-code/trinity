@@ -10,7 +10,7 @@ def claim_tokens():
         token_name = data["name"]
 
      
-        tokens_collection = db["tokens"]
+        tokens_collection = db["deployed"]
         token_data = tokens_collection.find_one({"TokenDynName": token_name})
         if not token_data or "TokenDynMint" not in token_data:
             return jsonify({"error": f"Token '{token_name}' not found or missing tokenDynMint"}), 404
