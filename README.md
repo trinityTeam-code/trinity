@@ -46,7 +46,7 @@ Code examples:
 
 ## Example Code
 
-All example scripts and relevant resources can be found in the [`example`](./example) directory.
+All example scripts and relevant resources can be found in the [`examples`](./examples) directory.
 
 ## Contributing
 
