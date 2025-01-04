@@ -46,9 +46,9 @@ def claim_tokens():
         transaction = Transaction()
 
         if response.value:
-            print("ATA esistente:", response.value[0].pubkey)
+            print("ATA found:", response.value[0].pubkey)
         else:
-            print("ATA non trovato. Creazione in corso...")
+            print("ATA not found. Creating...")
             transaction.add(
                 create_associated_token_account(
                     payer=payer.pubkey(),
